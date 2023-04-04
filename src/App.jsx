@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './assets/components/Navbar/Navbar'
+import PriceList from './assets/components/PriceList/PriceList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <h1 className='text-7xl text-purple-500'>Hello from tailwind</h1>
+      <PriceList></PriceList>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
